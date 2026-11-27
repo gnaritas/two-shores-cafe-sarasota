@@ -14,7 +14,7 @@ Built 2026-11-27 by the websites desk (card t_d85b08d2). Facts-only build; tango
 - Deploy history: first up = fresh project+service+deploy; 5534d93f redeploy (wave-seam/contrast fixes); 026d5fc5 = current (2x2 grids + dark-band button light variant). railway.json Config-as-Code deprecated 2026-12-01 notice noted — file works until then; migrate to .railway/railway.ts on next touch if still live.
 
 ## Repo
-- github.com/gnaritas/two-shores-cafe-sarasota (public, main@607bbee). No secrets in tree. Commits: dff4252 build → 5534d93 fix vision pass 1 (wave path 1080→1440 seam, findus btn contrast, footline) → 026d5fc fix vision pass 2 (2x2 dgrid/faq-grid, pagehead light secondary buttons; = deployed build) → 607bbee shots + DEPLOY.md close-out.
+- github.com/gnaritas/two-shores-cafe-sarasota (public, main; see git log — deployed build is 026d5fc, shots close-out 607bbee). No secrets in tree. Commits: dff4252 build → 5534d93 fix vision pass 1 (wave path 1080→1440 seam, findus btn contrast, footline) → 026d5fc fix vision pass 2 (2x2 dgrid/faq-grid, pagehead light secondary buttons; = deployed build) → 607bbee shots + DEPLOY.md close-out.
 
 ## Gates (all green 2026-11-27)
 - Local + LIVE `python3 /Users/rleon/sites/_verify.py public https://two-shores-cafe-sarasota-demo.up.railway.app` → PASS, fails [], warn [], 9 pages, titles unique.
