@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /thanks
+Disallow: /open
+Disallow: /healthz
+
+Sitemap: https://two-shores-cafe-sarasota-demo.up.railway.app/sitemap.xml

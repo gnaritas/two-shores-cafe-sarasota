@@ -1,0 +1,9 @@
+{
+  "name": "two-shores-cafe-sarasota-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Two Shores Café — Sarasota FL — Uruguayan-Argentinian bakery & coffee site (template v2)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
