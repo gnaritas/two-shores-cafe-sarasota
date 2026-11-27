@@ -162,7 +162,11 @@ footer.site{background:var(--tide);color:var(--plata);padding:48px 24px 40px;bor
 .fhrs{margin-top:8px}
 footer.site a{color:var(--amber-hi);text-decoration:none}
 footer.site a:hover{color:#fff;text-decoration:underline}
-.footline{margin-top:20px;font-size:.85rem;color:#8fa5ad}
+.footline{margin-top:20px;font-size:.85rem;color:#a9bec6}
+
+/* light secondary buttons on dark petrol */
+.findus .btn.line{border-color:rgba(201,215,219,.65);color:var(--sky)}
+.findus .btn.line:hover{border-color:var(--amber-hi);color:var(--amber-hi)}
 
 @media (max-width:900px){
   .quote-grid,.find-grid,.vgrid,.cgrid{grid-template-columns:1fr}

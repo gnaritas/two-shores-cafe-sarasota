@@ -173,8 +173,8 @@ def page_home():
     <p class="openline">{esc(HRS_SHORT)}<br>{esc(ADDR_FULL)}</p>
   </div>
   <svg class="seaway" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-    <path d="M0 44c120-36 240-36 360 0s240 36 360 0 240-36 360 0 120 36 0 36V110H0Z" fill="#faf4e6"/>
-    <path d="M0 70c120-36 240-36 360 0s240 36 360 0 240-36 360 0 120 36 0 36" fill="none" stroke="#d18a3a" stroke-width="3"/>
+    <path d="M0 44c120-36 240-36 360 0s240 36 360 0 240-36 360 0 240 36 360 0V110H0Z" fill="#faf4e6"/>
+    <path d="M0 70c120-36 240-36 360 0s240 36 360 0 240-36 360 0 240 36 360 0" fill="none" stroke="#d18a3a" stroke-width="3"/>
   </svg>
 </section>
 
@@ -678,7 +678,11 @@ footer.site{background:var(--tide);color:var(--plata);padding:48px 24px 40px;bor
 .fhrs{margin-top:8px}
 footer.site a{color:var(--amber-hi);text-decoration:none}
 footer.site a:hover{color:#fff;text-decoration:underline}
-.footline{margin-top:20px;font-size:.85rem;color:#8fa5ad}
+.footline{margin-top:20px;font-size:.85rem;color:#a9bec6}
+
+/* light secondary buttons on dark petrol */
+.findus .btn.line{border-color:rgba(201,215,219,.65);color:var(--sky)}
+.findus .btn.line:hover{border-color:var(--amber-hi);color:var(--amber-hi)}
 
 @media (max-width:900px){
   .quote-grid,.find-grid,.vgrid,.cgrid{grid-template-columns:1fr}
